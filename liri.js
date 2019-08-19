@@ -5,6 +5,13 @@ require("dotenv").config();
 var keys = require("./keys.js");
 var spotify = new Spotify(keys.spotify);
 
+// var myObj = {
+//     property: "value",
+//     method: function(){
+//         console.log("I'm a method");
+//     }
+// }
+// switch case
 //concert-this
 //spotify-this-song
 //movie-this
