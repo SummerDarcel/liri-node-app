@@ -29,6 +29,13 @@ var omdbAPIKEY = omdbKeys.key;
 
 
 
+// var myObj = {
+//     property: "value",
+//     method: function(){
+//         console.log("I'm a method");
+//     }
+// }
+// switch case
 //concert-this
 //spotify-this-song
 //movie-this
