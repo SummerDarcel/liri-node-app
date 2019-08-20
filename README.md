@@ -14,9 +14,9 @@ Surprise you with LIRI's pick.
 
 Type the following commands exactly as specified below in terminal:
 
-* SEARCH FOR AN UPCOMING CONCERT: node liri.js concert-this Artist/Band Name 
-* SEARCH FOR A MOVIE: node liri.js movie-this _Movie Title_ 
-* SEARCH FOR A SONG: node liri.js spotify-this _Song Title_ 
-* FOR A SURPRISE SEARCH: node liri.js do-what-it-says 
+* :speaker: SEARCH FOR AN UPCOMING CONCERT: node liri.js concert-this Artist/Band Name 
+* :movie_camera: SEARCH FOR A MOVIE: node liri.js movie-this _Movie Title_ 
+* :microphone: SEARCH FOR A SONG: node liri.js spotify-this _Song Title_ 
+* :game_die: FOR A SURPRISE SEARCH: node liri.js do-what-it-says 
 
 ![LIRI Bot Dem](./liriGif.gif)
