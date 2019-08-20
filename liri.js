@@ -1,5 +1,6 @@
 require("dotenv").config();
 var fs = require('fs');
+var inquirer = require('inquirer');
 var keys = require("./keys.js");
 var moment = require('moment');
 
