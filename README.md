@@ -21,3 +21,5 @@ SEARCH FOR A MOVIE: node liri.js movie-this Movie Title
 SEARCH FOR A SONG: node liri.js spotify-this Song Title
 
 FOR A SURPRISE SEARCH: node liri.js do-what-it-says
+
+liriGif.gif

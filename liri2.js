@@ -25,10 +25,10 @@ var chalk = require("chalk");
 var chalkTitle = chalk.inverse;
 
 var space = "\n\n" + "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0";
-var header = chalkTitle("\n================= LIRI found this ... ==================");
+var header = chalkTitle("\n========== LIRI found this ... =====");
 var line = chalk.blue("---------------------------------------------------------");
 
-// --------------------------------------------------------------------------------- Initial Questions of actions
+// Questions 
 var questions = [{
     type: 'list',
     name: 'programs',
@@ -122,7 +122,7 @@ inquirer
                 suprise(suprise);
                 break;
             default:
-                console.log('Sorry. Looks like LIRI cannot do that function');
+                console.log('Sorry. LIRI is Confused');
         }
     });
 
@@ -131,7 +131,7 @@ var getSpotifyInfo = (song) => {
     spotify.search({ type: 'track', query: song }, (error, song) => {
         if (error) {
             console.log(header)
-            return console.error("Oops. Looks like that's information I can't searched. " + error);
+            return console.error("Oops" + error);
         } else {
             var search = song.tracks.items
             var spotifyTitle = chalk.bold.yellow("\n================= Top 5 Search Results ==================");
@@ -193,11 +193,11 @@ var getConcertInfo = (artist) => {
             }
         })
         .catch((error) => {
-            return console.error("Oops. Looks like that information we can't search. " + error);
+            return console.error("Sorry, I'm not sure " + error);
         });
 }
 
-// --------------------------------------------------------------------------------- OMDB   
+// --- OMDB   
 var getMovieInfo = (movie) => {
     var params = {
         apiKey: omdbAPIKEY,
@@ -217,12 +217,11 @@ var getMovieInfo = (movie) => {
             space + "Movie Plot: " + movie.Plot +
             space + "Actors: " + movie.Actors +
             space + "Awards: " + movie.Awards + space);
-        // console.log('--------------------')
-        // console.log(movie)
+    
     });
 }
 
-// --------------------------------------------------------------------------------- Suprise!   
+// ------------ Suprise!   
 var suprise = (search) => {
     var min = 1;
     var max = 5;
@@ -230,7 +229,7 @@ var suprise = (search) => {
 
     fs.readFile('./random/random' + random + '.txt', 'utf8', (error, data) => {
         if (error) {
-            return console.error("Oops. Looks like that information we can't search. " + error);
+            return console.error("Oops. I don't know " + error);
         } else {
             // console.log(data.split(',')[1])
             var fileContent = data.split(',');
