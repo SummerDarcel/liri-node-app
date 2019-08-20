@@ -19,4 +19,4 @@ Type the following commands exactly as specified below in terminal:
 * SEARCH FOR A SONG: node liri.js spotify-this _Song Title_ 
 * FOR A SURPRISE SEARCH: node liri.js do-what-it-says 
 
-![LIRI Bot Demo(./liriGif.gif)
+![LIRI Bot Dem](./liriGif.gif)
