@@ -15,11 +15,8 @@ Surprise you with LIRI's pick.
 Type the following commands exactly as specified below in terminal:
 
 <li> SEARCH FOR AN UPCOMING CONCERT: node liri.js concert-this Artist/Band Name <li>
-
 <li> SEARCH FOR A MOVIE: node liri.js movie-this _Movie Title_ <li>
-
-<li> SEARCH FOR A SONG: node liri.js spotify-this _Song Title_ <li>
-
+<li> SEARCH FOR A SONG: node liri.js spotify-this _Song Title_ <li
 <li> FOR A SURPRISE SEARCH: node liri.js do-what-it-says <li>
 
-(/liriGif.gif)
+(..liriGif.gif)
