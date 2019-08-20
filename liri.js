@@ -1,6 +1,6 @@
 require("dotenv").config();
 var fs = require('fs');
-var inquirer = require('inquirer');
+// var inquirer = require('inquirer');
 var keys = require("./keys.js");
 var moment = require('moment');
 
@@ -17,15 +17,14 @@ var spotify = new Spotify({
 
 var fs = require("fs");
 var axios = require("axios");
-var bandsintown = keys.bandsInTown;
-var bandsInTownID = bandsintown.id;
-
-var OMDB = require("omdb-client");
-var omdbKeys = keys.omdb;
-var omdbAPIKEY = omdbKeys.key;
-
 var command = process.argv[2];
 var value = process.argv[3];
+
+// var bandsintown = keys.bandsInTown;
+// var bandsInTownID = bandsintown.id;
+// var omdbKey = require("./keys.js").omdbkey;
+// var omdbKeys = keys.omdb;
+// var omdbAPIKEY = omdbKeys.key;
 
 // var myObj = {
 //     property: "value",
