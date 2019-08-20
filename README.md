@@ -1,4 +1,4 @@
-# SAY HI TO LIRI!
+# SAY HI, TO LIRI!
 
 ### LIRI is a command line application built with Node.js that you can run it in your terminal.
 (Language Interpretation and Recognition Interface)
